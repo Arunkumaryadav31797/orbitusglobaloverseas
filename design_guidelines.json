@@ -1,0 +1,68 @@
+{
+  "project_name": "Orbitus Global Overseas",
+  "app_type": "hybrid_fullstack",
+  "design_system": {
+    "typography": {
+      "headings": "Plus Jakarta Sans, sans-serif",
+      "body": "Inter, sans-serif",
+      "hierarchy": {
+        "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold",
+        "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-bold",
+        "h3": "text-xl sm:text-2xl font-semibold",
+        "h4": "text-lg sm:text-xl font-semibold",
+        "body": "text-base text-slate-600 leading-relaxed",
+        "small": "text-sm text-slate-500"
+      }
+    },
+    "colors": {
+      "primary": "#0A192F",
+      "primary_light": "#1E3A8A",
+      "accent": "#D97706",
+      "accent_hover": "#B45309",
+      "amber_highlight": "#F59E0B",
+      "background": "#F8FAFC",
+      "surface": "#FFFFFF",
+      "slate_gray": "#475569",
+      "border": "#E2E8F0"
+    },
+    "visual_enhancers": {
+      "shadows": [
+        "shadow-[0_10px_30px_rgba(10,25,47,0.08)]",
+        "shadow-lg"
+      ],
+      "glassmorphism": "backdrop-blur-xl bg-white/80 border border-white/40 shadow-sm",
+      "radii": "rounded-2xl"
+    }
+  },
+  "layouts": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6"
+  },
+  "components": [
+    "Navbar",
+    "StickyAdmissionsBar",
+    "Hero",
+    "StatsSection",
+    "DestinationsGrid",
+    "ServicesGrid",
+    "MultiStepForm",
+    "Roadmap",
+    "ReviewsGallery",
+    "FaqAccordion",
+    "Footer",
+    "WhatsAppButton"
+  ],
+  "image_urls": {
+    "hero_students": "https://images.unsplash.com/photo-1758270704524-596810e891b5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxzdHVkeSUyMGFicm9hZCUyMHN0dWRlbnRzJTIwdW5pdmVyc2l0eSUyMGNhbXB1c3xlbnwwfHx8fDE3ODY4OTI5NzR8MA&ixlib=rb-4.1.0&q=85",
+    "campus_lifestyle": "https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxzdHVkeSUyMGFicm9hZCUyMHN0dWRlbnRzJTIwdW5pdmVyc2l0eSUyMGNhbXB1c3xlbnwwfHx8fDE3ODY4OTI5NzR8MA&ixlib=rb-4.1.0&q=85",
+    "graduation": "https://images.unsplash.com/photo-1627556704283-452301a45fd0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwzfHxncmFkdWF0aW9uJTIwY2VsZWJyYXRpb24lMjB1bml2ZXJzaXR5JTIwc3R1ZGVudHN8ZW58MHx8fHwxNzg2ODkyOTc0fDA&ixlib=rb-4.1.0&q=85",
+    "walking_students": "https://images.unsplash.com/photo-1663162550938-60f70fab5d31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxzdHVkeSUyMGFicm9hZCUyMHN0dWRlbnRzJTIwdW5pdmVyc2l0eSUyMGNhbXB1c3xlbnwwfHx8fDE3ODY4OTI5NzR8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": "Ensure all interactive elements have data-testid attributes, use Lucide React icons, Sonner for toast notifications, and ensure smooth responsive design across mobile and desktop. Implement mock POST /api/leads endpoint properly with form state retention and success celebration.",
+  "universal_guidelines": [
+    "Never use universal transition all",
+    "Every interactive element must have hover and focus states with high contrast",
+    "Ensure generous spacing (p-8, p-12)",
+    "Use data-testid on all buttons, inputs, links, and forms"
+  ]
+}

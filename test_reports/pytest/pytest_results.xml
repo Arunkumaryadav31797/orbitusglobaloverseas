@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="2.415" timestamp="2026-08-16T15:14:33.118884+00:00" hostname="agent-env-5b1ea99d-f129-4984-ad1f-ec39c9792ae0"><testcase classname="tests_tmp" name="test_create_lead" time="0.322" /></testsuite></testsuites>
